@@ -6,7 +6,7 @@ Using Pyspark to perform ETL and connect to an AWS RDS instance
 
 In this project, we’ll have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. We’ll need to pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, we’ll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset. Then, we’ll write a summary of the analysis for Jennifer to submit to the SellBy stakeholders.
 
-##Results
+## Results
 
 Using our knowledge of the cloud ETL process, well’ll create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets Links to an external site., and extract the dataset into a DataFrame. We'll transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Then, we'll upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
 
